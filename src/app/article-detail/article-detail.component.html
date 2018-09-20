@@ -1,0 +1,13 @@
+<article *ngIf="article">
+
+<aside>
+<h1>{{article.title}}</h1>
+<h2>{{article.subtitle}}</h2>
+<p *ngFor="let paragraph of article.text">{{paragraph}}</p>
+</aside>
+
+<p>
+    <img *ngFor="let image of article.images"
+        src="./{{article.image_src}}{{image}}" />
+</p>
+</article>

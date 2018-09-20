@@ -1,0 +1,36 @@
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+    min-height:6vh;
+    display:flex;
+    align-items: center;
+}
+
+ul > li
+{
+    flex:none;
+    margin: 0px 1%;
+    padding: 0px;
+}
+
+ul > li > a
+{
+    display:flex;
+    align-items:center;
+}
+
+ul > li div
+{
+    background:#1a1a1a;
+    padding:0px 16px;
+    display:flex;
+    align-items:center;
+}
+
+ul > li a, ul > li img, ul > li div
+{
+    height:48px;
+}

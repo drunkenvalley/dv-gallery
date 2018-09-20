@@ -1,0 +1,14 @@
+<ul>
+    <li>
+        <a routerLink="" >
+            <img alt="Home" src="./assets/home.svg" />
+        </a>
+    </li>
+    
+    <li *ngFor="let article of articles; let i = index">
+        <a routerLink="/article/{{i}}" >
+            <img src="./{{article.image_src}}{{article.thumbnail}}" />
+            <div>{{article.title}}</div>
+        </a>
+    </li>
+</ul>

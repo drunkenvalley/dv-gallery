@@ -1,0 +1,60 @@
+html, body 
+{
+    margin:0px;
+    height:100%;
+    background:#1a1a1a;
+    color: #b2b2b2;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 0.9em;
+}
+html *
+{
+    box-sizing: border-box;
+}
+
+div#blank-area 
+{
+    min-height:3%;
+    background:#121212;
+}
+
+div#content-area 
+{
+    height:91%;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+
+div#content-area > section
+{
+    flex:1;
+    margin:0px auto;
+    width:80%;
+    text-align:center;
+}
+
+#nav-area 
+{
+    min-height:6%;
+    background:#121212;
+}
+
+h1
+{
+    color:#e6c17e;
+    font-size: 2em;
+    margin-bottom:0px;
+}
+
+h2
+{
+    margin:0px;
+    font-size: 1.4em;
+}
+
+a
+{
+    color: #e6c17e;
+    text-decoration:none;
+}
